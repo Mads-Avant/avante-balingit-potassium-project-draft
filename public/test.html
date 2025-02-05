@@ -1,0 +1,246 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width">
+  <meta name="author" content="K02_AVANTE, K04_BALINGIT">
+  <meta name="description" content="ComSci3 Q2 Project Draft">
+  <meta name="keywords" content="HTML, CSS, Javascript, Node">
+  <title></title>
+  <link href="test.css" rel="stylesheet" type="text/css" />
+  <link rel="icon" type="image/x-icon" href="https://cdn.glitch.global/addc52e9-930a-4c37-8c0f-a9d519418138/favicon?v=1734965293396">
+</head>
+
+<body>
+<div id="banner">
+  <img src="https://cdn.glitch.global/addc52e9-930a-4c37-8c0f-a9d519418138/logo?v=1734965350154" alt="Logo">
+  <p>PuzzledYou</p>
+  <p><a href="index.html">Home</a></p>
+  <p><a href="types.html">Personality Types</a></p>
+  <p><a href="test.html">Personality Test</a></p>
+  <p><a href="compatibility.html">Compatibility Test</a></p>
+  <p><a href="refs.html">References</a></p>
+</div>
+
+<br><br> <br <br>
+  
+<div id="main_content">
+   <article>
+    <a>
+      <h2>How do you start solving a Jigsaw puzzle?</h2><br>
+    </a>
+    <section id="one1" >
+      <img src="https://cdn.glitch.global/addc52e9-930a-4c37-8c0f-a9d519418138/one1?v=1738671916001" alt="Choice 1"><br>
+      <button class = "one" onclick="questionOne(1)">What's a Jigsaw puzzle?</button>
+    </section>
+    <section id="one2">
+      <img src="https://cdn.glitch.global/addc52e9-930a-4c37-8c0f-a9d519418138/one2?v=1738672029614" alt="Choice 2"><br>
+      <button class = "two" onclick="questionOne(2)">I don't solve</button>
+    </section>
+    
+    <section id="one3">
+      <img src="https://cdn.glitch.global/addc52e9-930a-4c37-8c0f-a9d519418138/one3?v=1738672096455" alt="Choice 3"><br>
+      <button class = "three" onclick="questionOne(3)">By the edges!</button>
+    </section>
+    <section id="one4">
+      <img src="https://cdn.glitch.global/addc52e9-930a-4c37-8c0f-a9d519418138/one4?v=1738672238024" alt="Choice 4"><br>
+      <button class = "four" onclick="questionOne(4)">Whatever connects</button>
+    </section>
+  </article>
+  
+  <br>
+  
+  <article>
+    <a>
+      <h2>What's your favorite subject in school?</h2><br>
+    </a>
+    <section id="two1">
+      <img src="https://cdn.glitch.global/addc52e9-930a-4c37-8c0f-a9d519418138/two1?v=1738672371924" alt="Choice 1"><br>
+      <button class = "one" onclick="questionTwo(1)">English</button>
+    </section>
+    <section id="two2">
+      <img src="https://cdn.glitch.global/addc52e9-930a-4c37-8c0f-a9d519418138/two2?v=1738672436215" alt="Choice 2"><br>
+      <button class = "two" onclick="questionTwo(2)">Social Science</button>
+    </section>
+    <section id="two3">
+      <img src="https://cdn.glitch.global/addc52e9-930a-4c37-8c0f-a9d519418138/two3?v=1738672717295" alt="Choice 3"><br>
+      <button class = "three" onclick="questionTwo(3)">Math</button>
+    </section>
+    <section id="two4">
+      <img src="https://cdn.glitch.global/addc52e9-930a-4c37-8c0f-a9d519418138/two4?v=1738672756919" alt="Choice 4"><br>
+      <button class = "four" onclick="questionTwo(4)">Statistics</button>
+    </section>
+  </article>
+  
+  <br>
+  
+  <article>
+    <a>
+      <h2>In a library-themed escape room, what would you do first?</h2><br>
+    </a>
+    <section id="three1">
+      <img src="https://cdn.glitch.global/addc52e9-930a-4c37-8c0f-a9d519418138/three1?v=1738675910605" alt="Choice 1"><br>
+      <button class = "one" onclick="questionThree(1)">Skim through the books</button>
+    </section>
+    <section id="three2">
+      <img src="https://cdn.glitch.global/addc52e9-930a-4c37-8c0f-a9d519418138/three2?v=1738676169797" alt="Choice 2"><br>
+      <button class = "two" onclick="questionThree(2)">Look at the patterns of the room</button>
+    </section>
+    <section  id="three3">
+      <img src="https://cdn.glitch.global/addc52e9-930a-4c37-8c0f-a9d519418138/three3?v=1738675921862" alt="Choice 3"><br>
+      <button class = "three" onclick="questionThree(3)">Check the shelves for some clues</button>
+    </section>
+    <section id="three4">
+      <img src="https://cdn.glitch.global/addc52e9-930a-4c37-8c0f-a9d519418138/three4?v=1738675974478" alt="Choice 4"><br>
+      <button class = "four" onclick="questionThree(4)">Analyze the messy papers on the table</button>
+    </section>
+  </article>
+  
+  <br>
+  
+  <article>
+    <a>
+      <h2>Choose a book you would read based on the title.</h2><br>
+    </a>
+    <section id="four1">
+      <img src="https://cdn.glitch.global/addc52e9-930a-4c37-8c0f-a9d519418138/four1?v=1738676271710" alt="Choice 1"><br>
+      <button class = "one" onclick="questionFour(1)">Pride and Prejudice</button>
+    </section>
+    <section id="four2">
+      <img src="https://cdn.glitch.global/addc52e9-930a-4c37-8c0f-a9d519418138/four2?v=1738676289194" alt="Choice 2"><br>
+      <button class = "two" onclick="questionFour(2)">Rules</button>
+    </section>
+    <section id="four3">
+      <img src="https://cdn.glitch.global/addc52e9-930a-4c37-8c0f-a9d519418138/four3?v=1738676315972" alt="Choice 3"><br>
+      <button class = "three" onclick="questionFour(3)">Life of Pi</button>
+    </section>
+    <section id="four4">
+      <img src="https://cdn.glitch.global/addc52e9-930a-4c37-8c0f-a9d519418138/four4?v=1738676328417" alt="Choice 4"><br>
+      <button class = "four" onclick="questionFour(4)">A Good Girl's Guide to Murder</button>
+    </section>
+  </article>
+  
+  <br>
+  
+  <article>
+    <a>
+      <h2>Do you play chess?</h2><br>
+    </a>
+    <section id="five1">
+      <img src="https://cdn.glitch.global/addc52e9-930a-4c37-8c0f-a9d519418138/five1?v=1738740812431" alt="Choice 1"><br>
+      <button class = "one" onclick="questionFive(1)">Naur</button>
+    </section>
+    <section id="five2">
+      <img src="https://cdn.glitch.global/addc52e9-930a-4c37-8c0f-a9d519418138/five2?v=1738740928726" alt="Choice 2"><br>
+      <button class = "two" onclick="questionFive(2)">I would like to</button>
+    </section>
+    <section id="five3">
+      <img src="https://cdn.glitch.global/addc52e9-930a-4c37-8c0f-a9d519418138/five3?v=1738740994552" alt="Choice 3"><br>
+      <button class = "three" onclick="questionFive(3)">It's a hobby</button>
+    </section>
+    <section id="five4">
+      <img src="https://cdn.glitch.global/addc52e9-930a-4c37-8c0f-a9d519418138/five4?v=1738741065094" alt="Choice 4"><br>
+      <button class = "four" onclick="questionFive(4)">Chess is life</button>
+    </section>
+  </article>
+  
+  <br>
+  
+  <article>
+    <a>
+      <h2>What's your favorite breakfast food?</h2><br>
+    </a>
+    <section id="six1">
+      <img src="https://cdn.glitch.global/addc52e9-930a-4c37-8c0f-a9d519418138/six1?v=1738741208110" alt="Choice 1"><br>
+      <button class = "one" onclick="questionSix(1)">Oatmeal</button>
+    </section>
+    <section id="six2">
+      <img src="https://cdn.glitch.global/addc52e9-930a-4c37-8c0f-a9d519418138/six2?v=1738741228107" alt="Choice 2"><br>
+      <button class = "two" onclick="questionSix(2)">Pizza</button>
+    </section>
+    <section id="six3">
+      <img src="https://cdn.glitch.global/addc52e9-930a-4c37-8c0f-a9d519418138/six3?v=1738741282655" alt="Choice 3"><br>
+      <button class = "three" onclick="questionSix(3)">Waffles</button>
+    </section>
+    <section id="six4">
+      <img src="https://cdn.glitch.global/addc52e9-930a-4c37-8c0f-a9d519418138/six4?v=1738741326953" alt="Choice 4"><br>
+      <button class = "four" onclick="questionSix(4)">Tocino and eggs</button>
+    </section>
+  </article>
+  
+  <br>
+  
+  <article>
+    <a>
+      <h2>What is your biggest weakness?</h2><br>
+    </a>
+    <section id="seven1">
+      <img src="https://cdn.glitch.global/addc52e9-930a-4c37-8c0f-a9d519418138/seven1?v=1738741492867" alt="Choice 1"><br>
+      <button class = "one" onclick="questionSeven(1)">Everything math</button>
+    </section>
+    <section id="seven2">
+      <img src="https://cdn.glitch.global/addc52e9-930a-4c37-8c0f-a9d519418138/seven2?v=1738741525375" alt="Choice 2"><br>
+      <button class = "two" onclick="questionSeven(2)">Following rules</button>
+    </section>
+    <section id="seven3">
+      <img src="https://cdn.glitch.global/addc52e9-930a-4c37-8c0f-a9d519418138/seven3?v=1738741613846" alt="Choice 3"><br>
+      <button class = "three" onclick="questionSeven(3)">Being a perfectionist</button>
+    </section>
+    <section id="seven4">
+      <img src="https://cdn.glitch.global/addc52e9-930a-4c37-8c0f-a9d519418138/seven4?v=1738741656238" alt="Choice 4"><br>
+      <button class = "four" onclick="questionSeven(4)">Overthinking</button>
+    </section>
+  </article>
+  
+  <br>
+  
+  <article>
+    <a>
+      <h2>Question 8/8</h2><br>
+    </a>
+    <section id="eight1">
+      <img src="" alt="Choice 1"><br>
+      <button class = "one" onclick="questionEight(1)">Option 1</button>
+    </section>
+    <section id="eight2">
+      <img src="" alt="Choice 2"><br>
+      <button class = "two" onclick="questionEight(2)">Option 2</button>
+    </section>
+    <section id="eight3">
+      <img src="" alt="Choice 3"><br>
+      <button class = "three" onclick="questionEight(3)">Option 3</button>
+    </section>
+    <section id="eight4">
+      <img src="" alt="Choice 4"><br>
+      <button class = "four" onclick="questionEight(4)">Option 4</button>
+    </section>
+  </article>
+  
+  <br>
+  
+  <button onclick="submit()">SUBMIT</button>
+</div>
+
+<br>
+  
+<footer class="footer-container">
+  <div class="footer">
+    <div class="creators">
+      <h4>Creators</h4>
+      b2028emaavante@pshs.edu.ph<br>
+      b2028rbbalingit@pshs.edu.ph<br>
+      &#169; 2024, Avante &#38; Balingit
+    </div>
+    <div class="inspo">
+      <h4>Inspirations</h4>
+      <a href="https://www.16personalities.com/">16personalities</a>
+      <a href="https://iseej.github.io/CosmosPersona/">Cosmos Persona</a>
+    </div>
+  </div>
+</footer>
+
+  <script defer src="test.js"></script>
+</body>
+
+</html>
