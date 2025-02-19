@@ -22,8 +22,18 @@ button {
 img {
   width: 600px;
 }
-div#banner p, div#input, p.head{display: inline-block;}
+div#banner p, div#input, p.head, div#legend, div#compatMatrix {display: inline-block;}
 
+
+#legend {
+  float: right;
+  translate: -20px -240px;
+}
+
+#tableMatrix {
+  translate: 20px -190px;
+  
+}
 
 /* --- BANNER --- */
 div#banner {
