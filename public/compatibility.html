@@ -30,12 +30,16 @@
 </section>
 
 <section>
-<div id="input">
-  <h2>Input Here!</h2>
-  <label for="numPpl"> Number of People:</label>
-  <input type="number" id="numPpl" min="2" max="8"value="2" onchange="updateInputs">
-</div>
+  <div class="database">
+    <h2>Input Here!</h2>
+    <label for="numPpl"> Number of People:</label>
+    <input type="number" id="numPpl" min="2" max="8"value="2" onchange="updateInputs()">
+    <div id="inputTypes"> </div>  
+    
+    <button onclick="generateMatrix()">Generate</button> 
+  </div>
 </section>
+
 <br>
   
 <div id="legend">
@@ -53,11 +57,15 @@
 </div>
   
 <br>
-  
-<section id="chart">
+
+<section>
+  <div id="compatMatrix"style="display:none;" >
   <h2>Chart</h2>
-  <img src="https://cdn.glitch.global/addc52e9-930a-4c37-8c0f-a9d519418138/compatibilitychart?v=1738768333757" alt="Compatibility Chart">
+  <table id="tableMatrix"></table>
+  </div>
 </section>
+  
+
   
 <br>
 
@@ -77,6 +85,10 @@
   </div>
 </footer>
 
+  <script defer src="compatibility.js"></script>
+</body>
+
+</html>
   <script defer src="compatibility.js"></script>
 </body>
 
